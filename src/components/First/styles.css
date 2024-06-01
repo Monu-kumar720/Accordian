@@ -1,0 +1,88 @@
+/* Set a beautiful background image */
+body {
+    background: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Center the entire wrapper on the page */
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: rgba(255, 255, 255, 0.8); /* Add a white background with transparency */
+    padding: 20px;
+    border-radius: 15px;
+  }
+  
+  /* Style the button */
+  button {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style the accordion */
+  .accordian {
+    width: 100%;
+    max-width: 600px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  /* Style each item */
+  .item {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .item:last-child {
+    border-bottom: none;
+  }
+  
+  /* Style the title */
+  .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .title:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .title h1 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .title span {
+    font-size: 24px;
+    color: #007bff;
+  }
+  
+  /* Style the content */
+  .content {
+    padding: 15px;
+    background-color: #fafafa;
+    color: #333;
+    line-height: 1.6;
+  }
+  
